@@ -1,10 +1,3 @@
-#  README.rst
-# 
-#  Created by:    Michael Dacre
-#  Date Created:  2016-01-01 10:10
-#  Last modified: 2016-01-01 10:19 
-#
-
 ############################
 m4a to mp3 podcast converter
 ############################
