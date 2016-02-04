@@ -1,6 +1,6 @@
 """
 Setup script for m4a_to_mp3_podcast
-Last modified: 2016-01-01 10:36
+Last modified: 2016-02-04 13:31
 """
 from setuptools import setup, find_packages
 from codecs import open
@@ -19,9 +19,10 @@ for i in listdir(here + '/bin'):
     scpts.append('bin/' + i)
 
 setup(
-    name='m4a_to_mp3_podcast',
+    name='podcast_convert',
     version='0.1',
-    description='Convert an m4a podcast to mp3 maintaining rss feed structure, works with podcast apps',
+    description=('Convert an m4a podcast to mp3 maintaining feed structure, ' +
+                 'works with podcast apps'),
     long_description=long_description,
     url='https://github.com/MikeDacre/m4a_to_mp3_podcast',
     author='Michael Dacre',
